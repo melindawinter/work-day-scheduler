@@ -1,5 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -16,9 +22,27 @@ textarea {
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: deeppink;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid gray;
+}
+
+#unicorn {
+  float: left;
+}
+
+#unicorn2 {
+  float: right;
+}
+
+#currentDay {
+  color: #9400d3;
+  text-align: center;
+}
+
+.lead {
+  color: #00fa9a;
+  text-align: center;
 }
 
 .description {
@@ -36,7 +60,7 @@ textarea {
   border-top: 1px solid white;
 }
 
-.hour {
+.hour-div {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
@@ -53,7 +77,7 @@ textarea {
 }
 
 .future {
-  background-color: #14ff80;
+  background-color: #00fa9a;
   color: white;
 }
 
@@ -61,7 +85,7 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #9400d3;
   color: white;
 }
 
