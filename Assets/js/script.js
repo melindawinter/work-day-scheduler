@@ -22,6 +22,5 @@ $(document).ready(function () {
     var newHourDiv = $("<div>" + hours[i] + "</div>");
     hoursDiv.append(newHourDiv);
     $(newHourDiv).addClass("hour time-block row");
-    //$(newHourDiv).append((<"div" + );
-  
+  }
 });
