@@ -12,10 +12,10 @@ body {
 
 textarea {
   background: transparent;
-  border: none;
+  border: solid black;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
+  /* border-left: 1px solid black; */
   padding: 10px;
 }
 
@@ -25,6 +25,7 @@ textarea {
   color: deeppink;
   border-radius: 0;
   border-bottom: 10px solid gray;
+  border-top: 10px solid gray;
 }
 
 #unicorn {
@@ -47,7 +48,7 @@ textarea {
 
 .description {
   white-space: pre-wrap;
-  width: 97%;
+  width: 94%;
 }
 
 .time {
@@ -59,8 +60,6 @@ textarea {
 
 .time-block {
   text-align: center;
-
-  /* border-radius: 15px; */
 }
 
 .row {
@@ -72,28 +71,30 @@ textarea {
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+  /* border-top: 1px dashed #000000; */
 }
 
 .past {
   background-color: #d3d3d3;
-  color: white;
+  color: black;
 }
 
 .present {
   background-color: #ff1493;
-  color: white;
+  color: black;
 }
 
 .future {
   background-color: #00fa9a;
-  color: white;
+  color: black;
 }
 
 .saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border: solid black;
+  border-left: 1px;
+  /* border-top-right-radius: 15px;
+  border-top-left-radius: 15px; */
+  /* border-bottom-right-radius: 15px; */
   background-color: #9400d3;
   color: white;
 }
