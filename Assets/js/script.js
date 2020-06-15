@@ -24,7 +24,7 @@ $(document).ready(function () {
     hourId++;
     var timeDiv = $("<div class='time'>" + hours[i] + "</div>");
     var scheduleDiv = $(
-      "<div class='hour row time-block'> <textarea id=" +
+      "<div class='row'> <textarea id=" +
         hourId +
         " class='description'></textarea> <button class='saveBtn'>Save</button> </div>"
     );

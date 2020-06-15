@@ -10,15 +10,7 @@ body {
   line-height: 1;
 }
 
-textarea {
-  background: transparent;
-  border: solid black;
-  resize: none;
-  color: #000000;
-  /* border-left: 1px solid black; */
-  padding: 10px;
-}
-
+/* Styling for the jumbotron */
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -28,73 +20,82 @@ textarea {
   border-top: 10px solid gray;
 }
 
+/* Left unicorn */
 #unicorn {
   float: left;
 }
 
+/* Right unicorn */
 #unicorn2 {
   float: right;
 }
 
+/* Styles the day and date text */
 #currentDay {
   color: #9400d3;
   text-align: center;
 }
 
+/* Styles subheading */
 .lead {
   color: #00fa9a;
   text-align: center;
 }
 
+/* Styling for textareas */
 .description {
   white-space: pre-wrap;
   width: 94%;
+  background: transparent;
+  border: solid black;
+  resize: none;
+  color: #000000;
+  padding: 10px;
 }
 
+/* Styling for hour component */
 .time {
   height: 80px;
   width: 80px;
   float: left;
   padding-top: 35px;
-}
-
-.time-block {
+  border: dotted black;
+  border-right: 1px;
   text-align: center;
 }
 
+/* Styling for textarea and save button div */
 .row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
-}
-
-.hour {
+  text-align: center;
   background-color: #ffffff;
   color: #000000;
-  /* border-top: 1px dashed #000000; */
 }
 
+/* Color for past events */
 .past {
   background-color: #d3d3d3;
   color: black;
 }
 
+/* Color for present events */
 .present {
   background-color: #ff1493;
   color: black;
 }
 
+/* Color for future events */
 .future {
   background-color: #00fa9a;
   color: black;
 }
 
+/* Styling for save button */
 .saveBtn {
   border: solid black;
   border-left: 1px;
-  /* border-top-right-radius: 15px;
-  border-top-left-radius: 15px; */
-  /* border-bottom-right-radius: 15px; */
   background-color: #9400d3;
   color: white;
 }
