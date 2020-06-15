@@ -42,6 +42,22 @@ body {
   text-align: center;
 }
 
+#hour-div {
+  padding-bottom: 35px;
+}
+/* Styling for hour component */
+.time {
+  height: 80px;
+  width: 80px;
+  float: left;
+  padding-top: 35px;
+  border: dotted black;
+  border-right: 1px;
+  text-align: center;
+  background-color: #9400d3;
+  color: white;
+}
+
 /* Styling for textareas */
 .description {
   white-space: pre-wrap;
@@ -53,22 +69,12 @@ body {
   padding: 10px;
 }
 
-/* Styling for hour component */
-.time {
-  height: 80px;
-  width: 80px;
-  float: left;
-  padding-top: 35px;
-  border: dotted black;
-  border-right: 1px;
-  text-align: center;
-}
-
 /* Styling for textarea and save button div */
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;
+  /* border-top: 1px solid white; */
+
   text-align: center;
   background-color: #ffffff;
   color: #000000;
